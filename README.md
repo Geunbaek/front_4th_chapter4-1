@@ -129,16 +129,21 @@ jobs:
 ### 네트워크 탭 비교
 
 - s3
+
   ![alt text](image-1.png)
+
 - cloudfront
+
   ![alt text](image.png)
 
 > 네트워크 탭을 통해 확인해보면, S3에 배포된 사이트의 자원 크기가 상대적으로 더 큰 것으로 나타납니다.
 
 - s3
+
   ![alt text](image-2.png)
 
 - cloudfront
+
   ![alt text](image-3.png)
 
 > 자원들의 응답 헤더를 확인해보면, CloudFront 응답 헤더에 content-Encoding이 포함되어 있음을 알 수 있으며, 이는 자원들이 압축되어 전송되고 있음을 의미합니다.
